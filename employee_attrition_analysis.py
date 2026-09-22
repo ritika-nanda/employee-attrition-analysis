@@ -65,6 +65,7 @@ plt.ylabel("Monthly Income")
 plt.tight_layout()
 plt.savefig("plots/monthly_income_attrition.png", dpi=300, bbox_inches="tight")
 plt.show()
+plt.close()
 
 # Visualization 3: Job Satisfaction vs Attrition
 
