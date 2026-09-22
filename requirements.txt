@@ -1,6 +1,76 @@
+# ============================================================#
+# EMPLOYEE ATTRITION ANALYSIS
+# Project Dependencies
+# ============================================================
+#
+# Purpose:
+# This file contains the Python packages required to run
+# the Employee Attrition Analysis project, including data
+# preprocessing, exploratory analysis, visualization,
+# machine learning, model evaluation, and Jupyter Notebook
+# execution.
+#
+# Installation:
+#     pip install -r requirements.txt
+#
+# ============================================================
+
+
+# ------------------------------------------------------------
+# 1. DATA ANALYSIS AND DATA MANIPULATION
+# ------------------------------------------------------------
+
+# DataFrame operations, CSV data loading, cleaning,
+# filtering, grouping, aggregation, and statistical analysis.
 pandas
+
+# Numerical computing and array-based operations used
+# throughout the data preprocessing and ML workflow.
 numpy
+
+
+# ------------------------------------------------------------
+# 2. DATA VISUALIZATION
+# ------------------------------------------------------------
+
+# Creating analytical plots, charts, boxplots, line plots,
+# ROC curves, and confusion-matrix visualizations.
 matplotlib
+
+# Statistical data visualization and enhanced plotting
+# capabilities for exploratory data analysis.
+seaborn
+
+
+# ------------------------------------------------------------
+# 3. MACHINE LEARNING
+# ------------------------------------------------------------
+
+# Data preprocessing, feature scaling, train-test splitting,
+# machine learning models, performance metrics, and
+# classification evaluation.
 scikit-learn
+
+
+# ------------------------------------------------------------
+# 4. IMBALANCED DATA HANDLING
+# ------------------------------------------------------------
+
+# Provides SMOTE (Synthetic Minority Over-sampling Technique)
+# for handling class imbalance in the employee attrition
+# classification problem.
 imbalanced-learn
+
+
+# ------------------------------------------------------------
+# 5. JUPYTER NOTEBOOK ENVIRONMENT
+# ------------------------------------------------------------
+
+# Required for creating, opening, executing, and working
+# with the submitted Jupyter Notebook.
 jupyter
+
+
+# ============================================================
+# END OF REQUIREMENTS
+# ============================================================
