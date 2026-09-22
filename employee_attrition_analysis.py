@@ -1,5 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import os
+os.makedirs("plots", exist_ok=True)
 
 df = pd.read_csv("WA_Fn-UseC_-HR-Employee-Attrition.csv")
 
@@ -43,6 +45,12 @@ plt.ylabel("Attrition Rate (%)")
 plt.xticks(rotation=0)
 
 plt.tight_layout()
+plt.savefig("plots/attrition_overtime.png", dpi=300, bbox_inches="tight")
+plt.savefig("plots/monthly_income_attrition.png", dpi=300, bbox_inches="tight")
+plt.savefig("plots/attrition_job_satisfaction.png", dpi=300, bbox_inches="tight")
+plt.savefig("plots/attrition_job_role.png", dpi=300, bbox_inches="tight")
+plt.savefig("plots/attrition_age.png", dpi=300, bbox_inches="tight")
+plt.savefig("plots/attrition_job_involvement.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 # Visualization 2: Monthly Income vs Attrition
@@ -286,6 +294,7 @@ disp.plot()
 
 plt.title("Confusion Matrix - Logistic Regression + SMOTE")
 plt.tight_layout()
+plt.savefig("plots/confusion_matrix_logistic.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 # ============================================================
@@ -306,6 +315,7 @@ disp_rf.plot()
 
 plt.title("Confusion Matrix - Random Forest + SMOTE")
 plt.tight_layout()
+plt.savefig("plots/confusion_matrix_random_forest.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 # ============================================================
@@ -345,6 +355,7 @@ RocCurveDisplay.from_predictions(
 
 plt.title("ROC Curve Comparison")
 plt.tight_layout()
+plt.savefig("plots/roc_curve_comparison.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 # ============================================================
