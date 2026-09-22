@@ -46,11 +46,6 @@ plt.xticks(rotation=0)
 
 plt.tight_layout()
 plt.savefig("plots/attrition_overtime.png", dpi=300, bbox_inches="tight")
-plt.savefig("plots/monthly_income_attrition.png", dpi=300, bbox_inches="tight")
-plt.savefig("plots/attrition_job_satisfaction.png", dpi=300, bbox_inches="tight")
-plt.savefig("plots/attrition_job_role.png", dpi=300, bbox_inches="tight")
-plt.savefig("plots/attrition_age.png", dpi=300, bbox_inches="tight")
-plt.savefig("plots/attrition_job_involvement.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 # Visualization 2: Monthly Income vs Attrition
@@ -68,6 +63,7 @@ plt.xlabel("Attrition")
 plt.ylabel("Monthly Income")
 
 plt.tight_layout()
+plt.savefig("plots/monthly_income_attrition.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 # Visualization 3: Job Satisfaction vs Attrition
@@ -91,6 +87,7 @@ plt.ylabel("Percentage (%)")
 plt.xticks(rotation=0)
 plt.legend(title="Attrition")
 plt.tight_layout()
+plt.savefig("plots/attrition_job_satisfaction.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 # Visualization 4: Attrition by Job Role
@@ -114,6 +111,7 @@ plt.ylabel("Attrition Rate (%)")
 plt.xticks(rotation=45, ha="right")
 plt.legend(title="Attrition")
 plt.tight_layout()
+plt.savefig("plots/attrition_job_role.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 # Visualization 5: Attrition by Age
@@ -133,6 +131,7 @@ plt.xlabel("Age")
 plt.ylabel("Attrition Rate (%)")
 plt.grid(True)
 plt.tight_layout()
+plt.savefig("plots/attrition_age.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 # Visualization 6: Attrition by Job Involvement
@@ -156,6 +155,7 @@ plt.ylabel("Attrition Rate (%)")
 plt.xticks(rotation=0)
 plt.legend(title="Attrition")
 plt.tight_layout()
+plt.savefig("plots/attrition_job_involvement.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 # ============================================================
